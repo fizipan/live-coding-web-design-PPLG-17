@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 60px;
+    background-color: lightblue;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, .1);
+}
+
+.jumbotron img:hover {
+    transition: .3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.jumbotron p {
+    color: #888;
+}
+
+nav {
+    background-color: rgb(255, 207, 117);
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+
+nav li a {
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav li a:hover {
+    color: blue;
+    border-bottom: 1px solid black;
+}
+
+main {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    padding: 20px;
+    min-height: 600px;
+}
+
+#content {
+    margin-top: -20px;
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 40px;
+    width: 100%;
+    float: left;
+}
+
+footer h5 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+
+article,
+aside {
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+article img {
+    filter: grayscale(1);
+    object-position: center;
+    object-fit: cover;
+    margin-top: 20px;
+    width: 100%;
+    max-height: 350px;
+    transition: .3s;
+
+}
+
+article img:hover {
+    filter: grayscale(0);
+}
+
+aside {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    line-height: 25px;
+    float: right;
+    width: 25%;
+}
+
+aside img {
+    margin: 0 30%;
+    transition: .3s;
+}
+
+aside img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+article p {
+    margin-top: 20px;
+    line-height: 28px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+article span {
+    font-weight: bold;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    border: 5px;
+}
+
+.card h3#subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card.mentor {
+        text-align: center;
+    }
+}
+
+.card.mentor {
+    padding: 20px;
+    text-align: left;
+}
+
+.aside.card.mentor span {
+    font-weight: 200;
+}
+
+.card.mentor h3 {
+    margin-top: 7px;
+}
+
+.card.mentor img {
+    border-radius: 50%;
+}
+
+.card.mentor p {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
+}
