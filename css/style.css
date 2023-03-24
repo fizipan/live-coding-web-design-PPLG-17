@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 60px;
+  background-color: lightblue;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.jumbotron p {
+  color: #888;
+}
+
+nav {
+  background-color: rgb(255, 207, 117);
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 15px;
+}
